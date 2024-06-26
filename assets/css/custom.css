@@ -1,0 +1,82 @@
+:root{
+    --yellow-color: #cc9d5c;
+    --white-color: #ffffff;
+    --black-color: #000000;
+}
+
+
+.choose_us_wrapper{
+    margin: 0px;
+}
+
+.choose_us_wrapper p{
+ font-size: 15px;
+ margin: 4px;
+ text-align: justify;
+ height: 295px;
+ padding: 0px 15px;
+}
+
+.choose_us_btn{
+    margin: 15px 0px;
+    text-align: center;
+
+}
+
+.blog-content h3{
+    margin: 10px 0px;
+    padding: 0px 15px;
+}
+
+.readMore{
+    text-align: center;
+    padding: 10px;
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--yellow-color);
+    border-radius: 5px;
+}
+
+.readMore:hover{
+    color: var(--white-color);
+}
+
+.blog-content {
+    padding: 0px !important ;
+}
+
+/* case experties start */
+
+.practices-icon-wrapper i{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.ancortag_text{
+    color: var(--black-color);
+}
+
+.ancortag_text:hover{
+    color: var(--yellow-color);
+}
+
+/* case expertise end */
+
+
+/* about us start */
+
+.abot_lef_image{
+    margin-top: 120px;
+    padding: 20px;
+}
+@media (max-width: 450px) {
+    .abot_lef_image{
+        margin: 0px;
+    }
+}
+
+
+
+/* about us end */
